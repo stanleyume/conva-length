@@ -26,5 +26,6 @@
     "inches"
   ],
   "author": "Stanley Umeanozie",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {}
 }
