@@ -1,0 +1,30 @@
+{
+  "name": "conva-length",
+  "version": "1.0.0",
+  "description": "Unit converter for length",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stanleyume/conva-length.git"
+  },
+  "keywords": [
+    "unit-converter",
+    "length",
+    "converter",
+    "convert-length",
+    "conversion",
+    "measurements",
+    "metrics",
+    "units",
+    "quantity",
+    "metres",
+    "feet",
+    "kilometres",
+    "inches"
+  ],
+  "author": "Stanley Umeanozie",
+  "license": "MIT"
+}
