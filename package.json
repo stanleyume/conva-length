@@ -4,8 +4,9 @@
   "description": "Unit converter for length",
   "main": "src/length.js",
   "scripts": {
-    "dev": "webpack --mode development src/length.js -o dist/length.js",
-    "build": "webpack src/length.js -o dist/length.js"
+    "dev": "webpack --mode development",
+    "build": "webpack",
+    "watch": "webpack --watch --mode development"
   },
   "repository": {
     "type": "git",

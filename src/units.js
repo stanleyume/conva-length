@@ -26,4 +26,4 @@ var standardUnits = {
 // Array of available units
 var validUnits = Object.keys(standardUnits);
 
-export default { standardUnits, validUnits };
+export { standardUnits, validUnits };
