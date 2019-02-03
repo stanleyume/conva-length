@@ -1,6 +1,6 @@
 import { standardUnits, validUnits } from './units.js';
 
-export function validateUnit(unit){
+export function isUnit(unit){
   if (validUnits.indexOf(unit) > -1)
     return true;
   else
@@ -8,7 +8,7 @@ export function validateUnit(unit){
 }
 
 var length = (value, fromUnit, toUnit) => {
-  if (!validateUnit(fromUnit) || !validateUnit(toUnit))
+  if (!isUnit(fromUnit) || !isUnit(toUnit))
     return false;
 
   var baseValue = value * standardUnits[fromUnit];
@@ -19,5 +19,8 @@ var length = (value, fromUnit, toUnit) => {
 
 window.c = {
   length: length,
-  validateUnit: validateUnit,
+  isUnit: isUnit,
+  validUnits: ()=>{ return validUnits },
 };
+
+export default c;

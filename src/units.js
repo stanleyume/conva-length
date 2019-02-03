@@ -2,7 +2,9 @@
 
 var standardUnits = {
   m: 1,
+  fm: Math.pow(10, -15),
   pm: Math.pow(10, -12),
+  a: Math.pow(10, -10),
   nm: Math.pow(10, -9),
   um: Math.pow(10, -6),
   mm: Math.pow(10, -3),
@@ -15,7 +17,7 @@ var standardUnits = {
   in: 0.0254,
   ft: 0.3048,
   yd: 0.9144,
-  fm: 1.8288,
+  ftm: 1.8288,
   mi: 1609.344,
   ld: 384402000,
   au: 149597870700,
