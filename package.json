@@ -1,6 +1,6 @@
 {
   "name": "conva-length",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Unit converter for length",
   "main": "src/length.js",
   "scripts": {
