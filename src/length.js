@@ -23,4 +23,5 @@ window.c = {
   validUnits: ()=>{ return validUnits },
 };
 
-export default c;
+// export default c;
+module.exports = c;
