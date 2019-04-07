@@ -66,8 +66,36 @@ Returns an array of valid units.
 * **``in``**  inch
 * **``yd``**  yard
 * **``ftm``**  fathom
+* **``fth``**  British fathom
 * **``mi``**  mile
 * **``ld``**  lunar distance
 * **``au``**  astronomical unit
 * **``ly``**  light year
 * **``pc``** parsec
+* **``mil``** Milli-Inch
+* **``ha``** Hands
+* **``sp``** Span
+* **``miu``** U.S. Survey Mile
+* **``nma``** British Nautical Mile (Admiralty)
+* **``ch``** Chain (22 yards)
+* **``li``** Gunter's Link
+* **``bc``** Barleycorn
+* **``rd``** Rod / Pole / Perch
+* **``fur``** Furlong
+* **``pi``** Pica
+* **``pia``** American Pica
+* **``pif``** Cicero / French Pica
+* **``pt``** Point (PostScript)
+* **``ptp``** alias: Point (PostScript)
+* **``ptd``** Point (Didot)
+* **``ptm``** Point (Metric)
+* **``pta``** Point (ATA)
+* **``au``** Astronomical Unit (Earth to Sun)
+* **``cho``** Cho (Japan)
+* **``chr``** Chr (Taiwan)
+* **``bu``** Bu (China)
+* **``chi``** Chi (China)
+* **``cun``** Cun (China)
+* **``fen``** Fen (China)
+* **``hao``** Hao (China)
+* **``hu``** Hu (China)
