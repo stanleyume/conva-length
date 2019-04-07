@@ -7,7 +7,7 @@
     "dev": "webpack --mode development",
     "build": "webpack",
     "watch": "webpack --watch --mode development",
-    "publish": "npm version patch && git push origin master --tags && npm publish"
+    "pub-patch": "npm version patch && git push origin master --tags && npm publish"
   },
   "repository": {
     "type": "git",
